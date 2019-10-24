@@ -10,8 +10,8 @@ n = len(t)
 txy = np.ndarray(shape=(n,3))
 
 for i in range(0,n,1):
-    txy[i,0] = x0 + t[i]*vx0
-    txy[i,1] = y0 + t[i]*vx0 - (g*t[i]**2)/2
-    txy[i,2] = t[i]
+    txy[i,1] = x0 + t[i]*vx0
+    txy[i,2] = y0 + t[i]*vx0 - (g*t[i]**2)/2
+    txy[i,0] = t[i]
     
 print(txy)
