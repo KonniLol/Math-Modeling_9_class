@@ -3,7 +3,7 @@ from numpy import complex, array
 import colorsys 
   
 # setting the width of the output image 
-WIDTH = 51200
+WIDTH = 1024 # change for higher resolution(more detsils)
   
 # a function to return a tuple of colors 
 # as integer value of rgb 
